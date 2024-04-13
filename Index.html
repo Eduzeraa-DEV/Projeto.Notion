@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Quadro Kanban do Notion</title>
+  </head>
+  <body>
+    <h1>
+      <img src="/images/notion.png" alt="" width="70" />
+    </h1>
+    <div class="board">
+      <div class="column" id="todo">
+        <h3 class="title">Não Iniciado</h3>
+        <button type="button" class="btn_add" data-type="todo">Novo</button>
+        <!-- <div class="item">
+          <span class="text" contenteditable="true">Sem título</span>
+        </div> -->
+      </div>
+      <div class="column" id="progress">
+        <h3 class="title">Progresso</h3>
+        <button type="button" class="btn_add" data-type="progress">Novo</button>
+      </div>
+      <div class="column" id="complete">
+        <h3 class="title">Concluído</h3>
+        <button type="button" class="btn_add" data-type="complete">Novo</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
