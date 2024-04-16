@@ -3,6 +3,7 @@
 Aplicação desenvolvida para simplificar e otimizar a gestão de tarefas e projetos pessoais ou profissionais
 
 
- ![image](https://github.com/Eduzeraa-DEV/Projeto.Notion/assets/156840280/5cb916f7-2ccd-4a14-9348-3ad318a01379)
+![image](https://github.com/Eduzeraa-DEV/Projeto.Notion/assets/156840280/257bfeda-b7f5-441a-9a14-e227b28e2270)
+
 
 
