@@ -32,7 +32,7 @@ function addItem(columnId) {
   const column = document.getElementById(columnId);
   const newItem = document.createElement("div");
   newItem.className = "item";
-  newItem.innerHTML = '<span class="text" contenteditable="true">Untitled</span>';
+  newItem.innerHTML = '<span class="text" contenteditable="true">Sem titulo</span>';
   newItem.draggable = true;
   newItem.id = "item" + Date.now();
   newItem.addEventListener("dragstart", drag);
